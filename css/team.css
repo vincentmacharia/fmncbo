@@ -17,10 +17,20 @@
   color: #fff;
   background: #1cc7d0;
 }
+
+.members{
+  align-items: center;
+  display: inline-block;
+  object-fit: contain;
+  border: 1px solid rgb(56, 0, 0);
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
 .wrapper{
     height: 400px;
     width: 320px;
     position: relative;
+ 
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -87,4 +97,14 @@
     /* background-color: aqua; */
     width: 200px;
   }
+  .members p {
+  margin-left: 0;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  object-fit: contain;
+  border: 1px solid rgb(56, 0, 0);
+  
+  }
 }
+
